@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Styga;François;;;
+FN:François Styga
+ORG:TrAxxion S.A.
+TEL;TYPE=CELL:+352691992556
+EMAIL;TYPE=INTERNET:fstyga@traxxion.eu
+URL:https://www.traxxion.eu
+ADR;TYPE=WORK:;;12 rue de Flaxweiler;Grevenmacher;;L-6776;Luxembourg
+END:VCARD
