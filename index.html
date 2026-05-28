@@ -3,6 +3,186 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+  <title>TrAxxion S.A.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --yellow: #ffca0a;
+      --yellow-hover: #f0bb00;
+      --dark: #1a1a1a;
+      --muted: #999;
+      --border: #ebebeb;
+      --bg: #f9f9f9;
+      --card-bg: #ffffff;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Nunito', sans-serif;
+      background: var(--bg);
+      color: var(--dark);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: clamp(2.5rem, 7vw, 5rem) clamp(1.25rem, 5vw, 3rem);
+    }
+
+    /* ── LOGO ── */
+    .logo {
+      font-family: 'Nunito', sans-serif;
+      font-weight: 800;
+      font-size: clamp(2rem, 5vw, 2.8rem);
+      letter-spacing: -0.01em;
+      margin-bottom: clamp(2.5rem, 6vw, 4rem);
+      text-align: center;
+      color: var(--dark);
+      text-decoration: none;
+    }
+
+    .logo .a {
+      color: #005bbb;
+    }
+
+    /* ── CARDS GRID ── */
+    .cards-wrapper {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr));
+      gap: 1rem;
+      width: 100%;
+      max-width: 900px;
+    }
+
+    /* ── CARD ── */
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.6rem 1.6rem 1.4rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1.1rem;
+      transition: box-shadow 0.2s;
+    }
+
+    .card:hover {
+      box-shadow: 0 6px 24px rgba(0,0,0,0.07);
+    }
+
+    .card-name {
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: var(--dark);
+      line-height: 1.2;
+    }
+
+    .btn-add {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      padding: 0.55rem 1.25rem;
+      background: var(--yellow);
+      color: var(--dark);
+      text-decoration: none;
+      font-family: 'Nunito', sans-serif;
+      font-weight: 700;
+      font-size: 0.85rem;
+      border-radius: 999px;
+      transition: background 0.15s, transform 0.1s;
+    }
+
+    .btn-add:hover {
+      background: var(--yellow-hover);
+      transform: translateY(-1px);
+    }
+
+    .btn-add svg {
+      width: 14px;
+      height: 14px;
+      flex-shrink: 0;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      margin-top: clamp(2.5rem, 6vw, 4rem);
+      font-size: 0.78rem;
+      color: #bbb;
+      text-align: center;
+      line-height: 1.7;
+    }
+
+    footer a {
+      color: #bbb;
+      text-decoration: none;
+    }
+    footer a:hover { color: var(--dark); }
+  </style>
+</head>
+<body>
+
+<a class="logo" href="https://www.traxxion.eu" target="_blank" rel="noopener">
+  Tr<span class="a">A</span>xxion S.A.
+</a>
+
+<div class="cards-wrapper">
+
+  <div class="card">
+    <div class="card-name">Sven Mertes</div>
+    <a class="btn-add" href="https://thermestxx.github.io/txx-vcard/sven-mertes.vcf">
+      <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"/></svg>
+      Save Contact
+    </a>
+  </div>
+
+  <div class="card">
+    <div class="card-name">François Styga</div>
+    <a class="btn-add" href="https://thermestxx.github.io/txx-vcard/francois-styga.vcf">
+      <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"/></svg>
+      Save Contact
+    </a>
+  </div>
+
+  <div class="card">
+    <div class="card-name">Tom Hermes</div>
+    <a class="btn-add" href="https://thermestxx.github.io/txx-vcard/tom-hermes.vcf">
+      <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"/></svg>
+      Save Contact
+    </a>
+  </div>
+
+  <div class="card">
+    <div class="card-name">Paul Schergen</div>
+    <a class="btn-add" href="https://thermestxx.github.io/txx-vcard/paul-schergen.vcf">
+      <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"/></svg>
+      Save Contact
+    </a>
+  </div>
+
+  <div class="card">
+    <div class="card-name">Joachim Bach</div>
+    <a class="btn-add" href="https://thermestxx.github.io/txx-vcard/joachim-bach.vcf">
+      <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"/></svg>
+      Save Contact
+    </a>
+  </div>
+
+</div>
+
+<footer>
+  12 rue de Flaxweiler · L-6776 Grevenmacher · Luxembourg<br />
+  <a href="https://www.traxxion.eu" target="_blank" rel="noopener">www.traxxion.eu</a>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   <title>TrAxxion Expert Network</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet" />
