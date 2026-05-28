@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Bach;Joachim;;;
+FN:Joachim Bach
+ORG:TrAxxion S.A.
+TEL;TYPE=CELL:+49 1577 6466 344
+EMAIL;TYPE=INTERNET:jbach@traxxion.eu
+URL:https://www.traxxion.eu
+ADR;TYPE=WORK:;;12 rue de Flaxweiler;Grevenmacher;;L-6776;Luxembourg
+END:VCARD
