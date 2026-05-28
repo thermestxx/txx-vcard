@@ -1,0 +1,186 @@
+[
+  {
+    "tag.profile.name": "Tom Hermes",
+    "tag.profile.date": "20260528T151612",
+    "tag.profile.length": 2,
+    "tag.profile.size": 246,
+    "tag.profile.data": [
+      {
+        "tag.profile.fields": {
+          "field1": "Tom Hermes",
+          "field6": "12, rue de Flaxweiler\nL-6776 Grevenmacher",
+          "field3": "+352661131990",
+          "field2": "TrAxxion S.A.",
+          "field5": "www.traxxion.eu",
+          "field4": "thermes@traxxion.eu"
+        },
+        "tag.profile.config": {
+          "requestType": "5",
+          "itemRecordExtra": "",
+          "itemDescription": "Tom Hermes\nTrAxxion S.A.\n12, rue de Flaxweiler\nL-6776 Grevenmacher\n+352661131990\nthermes@traxxion.eu\nwww.traxxion.eu",
+          "itemRecord": "BEGIN:VCARD\nVERSION:3.0\nFN:Tom Hermes\nORG:TrAxxion S.A.\nADR:;;12\\, rue de Flaxweiler\nL-6776 Grevenmacher;;;;;\nTEL:+352661131990\nEMAIL:thermes@traxxion.eu\nURL:www.traxxion.eu\nEND:VCARD"
+        }
+      },
+      {
+        "tag.profile.fields": {
+          "field1": "https://thermestxx.github.io/txx-vcard/tom-hermes.vcf",
+          "field2": "1"
+        },
+        "tag.profile.config": {
+          "requestType": "2",
+          "itemRecordExtra": "",
+          "itemDescription": "https://thermestxx.github.io/txx-vcard/tom-hermes.vcf",
+          "itemRecord": "https://thermestxx.github.io/txx-vcard/tom-hermes.vcf"
+        }
+      }
+    ]
+  },
+
+  {
+    "tag.profile.name": "Sven Mertes",
+    "tag.profile.date": "20260528T000000",
+    "tag.profile.length": 2,
+    "tag.profile.size": 246,
+    "tag.profile.data": [
+      {
+        "tag.profile.fields": {
+          "field1": "Sven Mertes",
+          "field6": "12, rue de Flaxweiler\nL-6776 Grevenmacher",
+          "field3": "+352691832503",
+          "field2": "TrAxxion S.A.",
+          "field5": "www.traxxion.eu",
+          "field4": "smertes@traxxion.eu"
+        },
+        "tag.profile.config": {
+          "requestType": "5",
+          "itemRecordExtra": "",
+          "itemDescription": "Sven Mertes\nTrAxxion S.A.\n12, rue de Flaxweiler\nL-6776 Grevenmacher\n+352691832503\nsmertes@traxxion.eu\nwww.traxxion.eu",
+          "itemRecord": "BEGIN:VCARD\nVERSION:3.0\nFN:Sven Mertes\nORG:TrAxxion S.A.\nADR:;;12\\, rue de Flaxweiler\nL-6776 Grevenmacher;;;;;\nTEL:+352691832503\nEMAIL:smertes@traxxion.eu\nURL:www.traxxion.eu\nEND:VCARD"
+        }
+      },
+      {
+        "tag.profile.fields": {
+          "field1": "https://thermestxx.github.io/txx-vcard/sven-mertes.vcf",
+          "field2": "1"
+        },
+        "tag.profile.config": {
+          "requestType": "2",
+          "itemRecordExtra": "",
+          "itemDescription": "https://thermestxx.github.io/txx-vcard/sven-mertes.vcf",
+          "itemRecord": "https://thermestxx.github.io/txx-vcard/sven-mertes.vcf"
+        }
+      }
+    ]
+  },
+
+  {
+    "tag.profile.name": "François Styga",
+    "tag.profile.date": "20260528T000000",
+    "tag.profile.length": 2,
+    "tag.profile.size": 246,
+    "tag.profile.data": [
+      {
+        "tag.profile.fields": {
+          "field1": "François Styga",
+          "field6": "12, rue de Flaxweiler\nL-6776 Grevenmacher",
+          "field3": "+352691992556",
+          "field2": "TrAxxion S.A.",
+          "field5": "www.traxxion.eu",
+          "field4": "fstyga@traxxion.eu"
+        },
+        "tag.profile.config": {
+          "requestType": "5",
+          "itemRecordExtra": "",
+          "itemDescription": "François Styga\nTrAxxion S.A.\n12, rue de Flaxweiler\nL-6776 Grevenmacher\n+352691992556\nfstyga@traxxion.eu\nwww.traxxion.eu",
+          "itemRecord": "BEGIN:VCARD\nVERSION:3.0\nFN:François Styga\nORG:TrAxxion S.A.\nADR:;;12\\, rue de Flaxweiler\nL-6776 Grevenmacher;;;;;\nTEL:+352691992556\nEMAIL:fstyga@traxxion.eu\nURL:www.traxxion.eu\nEND:VCARD"
+        }
+      },
+      {
+        "tag.profile.fields": {
+          "field1": "https://thermestxx.github.io/txx-vcard/francois-styga.vcf",
+          "field2": "1"
+        },
+        "tag.profile.config": {
+          "requestType": "2",
+          "itemRecordExtra": "",
+          "itemDescription": "https://thermestxx.github.io/txx-vcard/francois-styga.vcf",
+          "itemRecord": "https://thermestxx.github.io/txx-vcard/francois-styga.vcf"
+        }
+      }
+    ]
+  },
+
+  {
+    "tag.profile.name": "Paul Schergen",
+    "tag.profile.date": "20260528T000000",
+    "tag.profile.length": 2,
+    "tag.profile.size": 246,
+    "tag.profile.data": [
+      {
+        "tag.profile.fields": {
+          "field1": "Paul Schergen",
+          "field6": "12, rue de Flaxweiler\nL-6776 Grevenmacher",
+          "field3": "+352691297244",
+          "field2": "TrAxxion S.A.",
+          "field5": "www.traxxion.eu",
+          "field4": "pschergen@traxxion.eu"
+        },
+        "tag.profile.config": {
+          "requestType": "5",
+          "itemRecordExtra": "",
+          "itemDescription": "Paul Schergen\nTrAxxion S.A.\n12, rue de Flaxweiler\nL-6776 Grevenmacher\n+352691297244\npschergen@traxxion.eu\nwww.traxxion.eu",
+          "itemRecord": "BEGIN:VCARD\nVERSION:3.0\nFN:Paul Schergen\nORG:TrAxxion S.A.\nADR:;;12\\, rue de Flaxweiler\nL-6776 Grevenmacher;;;;;\nTEL:+352691297244\nEMAIL:pschergen@traxxion.eu\nURL:www.traxxion.eu\nEND:VCARD"
+        }
+      },
+      {
+        "tag.profile.fields": {
+          "field1": "https://thermestxx.github.io/txx-vcard/paul-schergen.vcf",
+          "field2": "1"
+        },
+        "tag.profile.config": {
+          "requestType": "2",
+          "itemRecordExtra": "",
+          "itemDescription": "https://thermestxx.github.io/txx-vcard/paul-schergen.vcf",
+          "itemRecord": "https://thermestxx.github.io/txx-vcard/paul-schergen.vcf"
+        }
+      }
+    ]
+  },
+
+  {
+    "tag.profile.name": "Joachim Bach",
+    "tag.profile.date": "20260528T000000",
+    "tag.profile.length": 2,
+    "tag.profile.size": 246,
+    "tag.profile.data": [
+      {
+        "tag.profile.fields": {
+          "field1": "Joachim Bach",
+          "field6": "12, rue de Flaxweiler\nL-6776 Grevenmacher",
+          "field3": "+4915776466344",
+          "field2": "TrAxxion S.A.",
+          "field5": "www.traxxion.eu",
+          "field4": "jbach@traxxion.eu"
+        },
+        "tag.profile.config": {
+          "requestType": "5",
+          "itemRecordExtra": "",
+          "itemDescription": "Joachim Bach\nTrAxxion S.A.\n12, rue de Flaxweiler\nL-6776 Grevenmacher\n+4915776466344\njbach@traxxion.eu\nwww.traxxion.eu",
+          "itemRecord": "BEGIN:VCARD\nVERSION:3.0\nFN:Joachim Bach\nORG:TrAxxion S.A.\nADR:;;12\\, rue de Flaxweiler\nL-6776 Grevenmacher;;;;;\nTEL:+4915776466344\nEMAIL:jbach@traxxion.eu\nURL:www.traxxion.eu\nEND:VCARD"
+        }
+      },
+      {
+        "tag.profile.fields": {
+          "field1": "https://thermestxx.github.io/txx-vcard/joachim-bach.vcf",
+          "field2": "1"
+        },
+        "tag.profile.config": {
+          "requestType": "2",
+          "itemRecordExtra": "",
+          "itemDescription": "https://thermestxx.github.io/txx-vcard/joachim-bach.vcf",
+          "itemRecord": "https://thermestxx.github.io/txx-vcard/joachim-bach.vcf"
+        }
+      }
+    ]
+  }
+]
