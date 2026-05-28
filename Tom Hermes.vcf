@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Hermes;Tom;;;
+FN:Tom Hermes
+ORG:TrAxxion S.A
+TEL;type=CELL:+352661131990
+EMAIL;TYPE=INTERNET:thermes@traxxion.eu
+URL:https://www.traxxion.eu
+END:VCARD
+
