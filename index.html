@@ -1,19 +1,196 @@
+```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Digital Business Card</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>TrAxxion Expert Network</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family: Arial, sans-serif;
+      background:#111;
+      color:white;
+      line-height:1.6;
+    }
+
+    header{
+      padding:60px 20px;
+      text-align:center;
+      border-bottom:1px solid #222;
+    }
+
+    header h1{
+      font-size:42px;
+      margin-bottom:10px;
+      letter-spacing:2px;
+    }
+
+    header p{
+      color:#aaa;
+      max-width:700px;
+      margin:auto;
+    }
+
+    .container{
+      max-width:1100px;
+      margin:auto;
+      padding:40px 20px;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+      gap:25px;
+    }
+
+    .card{
+      background:#1b1b1b;
+      border:1px solid #2a2a2a;
+      border-radius:14px;
+      padding:25px;
+      transition:0.2s;
+    }
+
+    .card:hover{
+      transform:translateY(-3px);
+      border-color:#666;
+    }
+
+    .name{
+      font-size:24px;
+      margin-bottom:10px;
+    }
+
+    .role{
+      color:#aaa;
+      margin-bottom:20px;
+    }
+
+    .info{
+      margin-bottom:8px;
+      font-size:14px;
+      color:#ddd;
+      word-break:break-word;
+    }
+
+    .button{
+      display:inline-block;
+      margin-top:20px;
+      padding:12px 18px;
+      border-radius:10px;
+      text-decoration:none;
+      background:white;
+      color:black;
+      font-weight:bold;
+      transition:0.2s;
+    }
+
+    .button:hover{
+      opacity:0.85;
+    }
+
+    footer{
+      text-align:center;
+      padding:40px 20px;
+      color:#777;
+      border-top:1px solid #222;
+      margin-top:40px;
+      font-size:14px;
+    }
+  </style>
 </head>
 
-<body style="font-family: Arial; text-align:center; padding:50px;">
+<body>
 
-  <h1>Tom Hermes</h1>
-  <p>TrAxxion S.A.</p>
+<header>
+  <h1>TrAxxion</h1>
 
-  <a href="Tom-Hermes.vcf">
-    Add Contact
-  </a>
+  <p>
+    Pragmatic consulting by experienced experts.
+    Sustainable solutions. No nonsense.
+  </p>
+</header>
+
+<div class="container">
+
+  <div class="grid">
+
+    <div class="card">
+      <div class="name">Sven Mertes</div>
+      <div class="role">Governance & Strategy</div>
+
+      <div class="info">📧 smertes@traxxion.eu</div>
+      <div class="info">📞 +352 691 832 503</div>
+
+      <a class="button" href="sven-mertes.vcf">
+        Add Contact
+      </a>
+    </div>
+
+    <div class="card">
+      <div class="name">François Styga</div>
+      <div class="role">Innovation & Project Management</div>
+
+      <div class="info">📧 fstyga@traxxion.eu</div>
+      <div class="info">📞 +352 691 992 556</div>
+
+      <a class="button" href="francois-styga.vcf">
+        Add Contact
+      </a>
+    </div>
+
+    <div class="card">
+      <div class="name">Tom Hermes</div>
+      <div class="role">Digital Transformation</div>
+
+      <div class="info">📧 thermes@traxxion.eu</div>
+      <div class="info">📞 +352 661 131 990</div>
+
+      <a class="button" href="tom-hermes.vcf">
+        Add Contact
+      </a>
+    </div>
+
+    <div class="card">
+      <div class="name">Paul Schergen</div>
+      <div class="role">Operations & Governance</div>
+
+      <div class="info">📧 pschergen@traxxion.eu</div>
+      <div class="info">📞 +352 691 297 244</div>
+
+      <a class="button" href="paul-schergen.vcf">
+        Add Contact
+      </a>
+    </div>
+
+    <div class="card">
+      <div class="name">Joachim Bach</div>
+      <div class="role">IT & ERP Systems</div>
+
+      <div class="info">📧 jbach@traxxion.eu</div>
+      <div class="info">📞 +49 1577 6466 344</div>
+
+      <a class="button" href="joachim-bach.vcf">
+        Add Contact
+      </a>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  TrAxxion S.A. · 12 rue de Flaxweiler · L-6776 Grevenmacher · Luxembourg
+</footer>
 
 </body>
 </html>
+```
