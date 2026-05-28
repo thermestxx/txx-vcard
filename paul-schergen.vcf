@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Schergen;Paul;;;
+FN:Paul Schergen
+ORG:TrAxxion S.A.
+TEL;TYPE=CELL:+352691297244
+EMAIL;TYPE=INTERNET:pschergen@traxxion.eu
+URL:https://www.traxxion.eu
+ADR;TYPE=WORK:;;12 rue de Flaxweiler;Grevenmacher;;L-6776;Luxembourg
+END:VCARD
