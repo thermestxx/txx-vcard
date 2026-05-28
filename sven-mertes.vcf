@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Mertes;Sven;;;
+FN:Sven Mertes
+ORG:TrAxxion S.A.
+TITLE:Governance & Strategy
+TEL;TYPE=CELL:+352691832503
+EMAIL;TYPE=INTERNET:smertes@traxxion.eu
+URL:https://www.traxxion.eu
+ADR;TYPE=WORK:;;12 rue de Flaxweiler;Grevenmacher;;L-6776;Luxembourg
+END:VCARD
